@@ -1,0 +1,199 @@
+[
+    {
+      "name": "JavaScript",
+      "description": "Dynamic language for web development."
+    },
+    {
+      "name": "Python",
+      "description": "Popular language for general programming."
+    },
+    {
+      "name": "HTML",
+      "description": "Standard markup for web pages."
+    },
+    {
+      "name": "CSS",
+      "description": "Style sheets for web design."
+    },
+    {
+      "name": "Node.js",
+      "description": "JavaScript runtime for server-side."
+    },
+    {
+      "name": "React",
+      "description": "JavaScript library for building UIs."
+    },
+    {
+      "name": "Angular",
+      "description": "Front-end web framework by Google."
+    },
+    {
+      "name": "Vue.js",
+      "description": "Progressive JavaScript framework for UIs."
+    },
+    {
+      "name": "Django",
+      "description": "High-level Python web framework."
+    },
+    {
+      "name": "Flask",
+      "description": "Lightweight Python web framework."
+    },
+    {
+      "name": "Ruby on Rails",
+      "description": "Server-side web application framework."
+    },
+    {
+      "name": "SQL",
+      "description": "Language for managing databases."
+    },
+    {
+      "name": "MongoDB",
+      "description": "NoSQL database for flexible storage."
+    },
+    {
+      "name": "MySQL",
+      "description": "Relational database management system."
+    },
+    {
+      "name": "PostgreSQL",
+      "description": "Open-source relational database system."
+    },
+    {
+      "name": "Docker",
+      "description": "Platform for containerizing applications."
+    },
+    {
+      "name": "Kubernetes",
+      "description": "Container orchestration for scalable deployment."
+    },
+    {
+      "name": "AWS (Amazon Web Services)",
+      "description": "Cloud platform for various services."
+    },
+    {
+      "name": "Azure",
+      "description": "Microsoft’s cloud computing service."
+    }, 
+    {
+      "name": "Google Cloud",
+      "description": "Cloud platform for storage, computing."
+    },
+    {
+      "name": "Terraform",
+      "description": "Infrastructure as code automation tool."
+    },
+    {
+      "name": "Ansible",
+      "description": "IT automation for managing systems."
+    },
+    {
+      "name": "Git",
+      "description": "Version control system for tracking changes."
+    },
+    {
+      "name": "GitHub",
+      "description": "Platform for code hosting, collaboration."
+    },
+    {
+      "name": "GitLab",
+      "description": "Git repository manager with CI/CD."
+    },
+    {
+      "name": "Jenkins",
+      "description": "Automation server for continuous integration."
+    },
+    {
+      "name": "Travis CI",
+      "description": "Continuous integration service for developers."
+    },
+    {
+      "name": "CircleCI",
+      "description": "Continuous integration and delivery tool."
+    },
+    {
+      "name": "JIRA",
+      "description": "Issue tracking and project management software."
+    },
+    {
+      "name": "Confluence",
+      "description": "Team collaboration and documentation tool."
+    },
+    {
+      "name": "Slack",
+      "description": "Messaging platform for workplace collaboration."
+    },
+    {
+      "name": "Zoom",
+      "description": "Video conferencing and communication platform."
+    },
+    {
+      "name": "Microsoft Teams",
+      "description": "Collaboration tool for remote work."
+    },
+    {
+      "name": "Trello",
+      "description": "Project management and task organization tool."
+    },
+    {
+      "name": "Asana",
+      "description": "Work management platform for teams."
+    },
+    {
+      "name": "Notion",
+      "description": "All-in-one workspace for notes, docs."
+    },
+    {
+      "name": "Figma",
+      "description": "UI/UX design and prototyping tool."
+    },
+    {
+      "name": "Sketch",
+      "description": "Digital design tool for interfaces."
+    },
+    {
+      "name": "Adobe XD",
+      "description": "UX/UI design and prototyping tool."
+    },
+    {
+      "name": "Bootstrap",
+      "description": "CSS framework for responsive design."
+    },
+    {
+      "name": "Tailwind CSS",
+      "description": "Utility-first CSS framework for styling."
+    },
+    {
+      "name": "Sass",
+      "description": "CSS preprocessor for cleaner syntax."
+    },
+    {
+      "name": "GraphQL",
+      "description": "Query language for APIs."
+    },
+    {
+      "name": "REST API",
+      "description": "Architectural style for web services."
+    },
+    {
+      "name": "JSON",
+      "description": "Lightweight data-interchange format."
+    },
+    {
+      "name": "XML",
+      "description": "Markup language for structured data."
+    },
+    {
+      "name": "Redux",
+      "description": "State management for JavaScript apps."
+    },
+    {
+      "name": "Express.js",
+      "description": "Web application framework for Node.js."
+    },
+    {
+      "name": "Next.js",
+      "description": "React framework for server-side rendering."
+    }
+  ]
+  
