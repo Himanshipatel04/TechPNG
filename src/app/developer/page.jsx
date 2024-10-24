@@ -1,10 +1,21 @@
-import React from "react";
+'use client'
+import React, { useEffect } from "react";
 import me2 from "@/public/assets/me2.jpg";
 import me from "@/public/assets/me.jpg";
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Import icons
 
 const page = () => {
+  useEffect(() => {
+    const checkDbConnection = async () => {
+      const res = await fetch('/api/check');
+      const data = await res.json();
+      console.log(data.message);
+    };
+  
+    checkDbConnection();
+  }, []);
+  
   return (
     <div className="h-fit py-10 px-5 md:px-20 w-full text-black  dark:text-white min-h-[80vh] ">
       <h1 className="text-6xl font-bold text-center text-[#121010] dark:text-gray-400">

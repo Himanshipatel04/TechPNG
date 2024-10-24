@@ -6,7 +6,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 // import ErrorBoundary from "@/components/ErrorBoundary";
 
 export const metadata = {
-  title: "TechPNGs",
+  title: "TechPNG",
   description: "App for all Tech PNGs!",
 };
 

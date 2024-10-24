@@ -22,7 +22,7 @@ const ThemeToggle = ({ children }) => {
   return (
     <div
       className={`min-h-screen transition-all duration-300 ${
-        theme === "dark" ? "bg-black text-white" : "bg-white text-black"
+        theme === "dark" ? "bg-black text-white" : "bg-gray-500 text-black"
       }`}
     >
       <button onClick={toggleTheme} className="absolute top-5 right-2  md:right-8">

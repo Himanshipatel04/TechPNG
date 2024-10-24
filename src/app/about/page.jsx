@@ -1,5 +1,5 @@
 'use client'
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "@/public/assets/Untitled design.png";
 import darkMode from "@/public/assets/techs.png";
 import Image from "next/image";
@@ -17,7 +17,7 @@ const Page = () => {
       // Default to light mode if no preference is set
       setIsDarkMode(false);
     }
-  }, []);
+  }, [isDarkMode]);
 
   return (
     <div className="min-h-screen py-16 px-5 md:px-20 text-black">

@@ -1,12 +1,14 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FiSearch } from "react-icons/fi";
+
 import png from "@/public/assets/pngegg.png"; // Default image
 import data from "@/components/data.json"; // Your JSON data
 
 const Page = () => {
   const [search, setSearch] = useState("");
+  const [theme,setTheme] = useState("dark")
 
   const handleDownload = (imageSrc, techName) => {
     const link = document.createElement("a");
@@ -17,7 +19,12 @@ const Page = () => {
     document.body.removeChild(link);
   };
 
-  
+  useEffect(()=>{
+    const thm = localStorage.getItem("theme")
+    setTheme(thm)
+  })
+
+
   const filteredData = data.filter(item =>
     item.name.toLowerCase().includes(search.toLowerCase())
   );
@@ -57,7 +64,9 @@ const Page = () => {
                 <p className="text-md text-center px-2 text-wrap">{item.description}</p>
                 <button
                   onClick={() => handleDownload(png.src, item.name)} // Use the correct image source
-                  className="bg-black absolute bottom-0 text-lg rounded-b-lg w-full text-white py-2 mt-2 hover:bg-gray-700"
+                  className={`${
+                    theme === "dark" ? "bg-black" : "bg-[#9d7878]"
+                  } absolute bottom-0 text-lg rounded-b-lg w-full text-white py-2 mt-2 hover:bg-gray-700`}
                 >
                   Download
                 </button>
