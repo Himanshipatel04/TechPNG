@@ -30,7 +30,7 @@ const Page = () => {
             <h2 className="text-4xl font-bold text-gray-800 dark:text-white">Why Us?</h2>
             <div className="flex flex-col gap-4">
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-400">
-                <span className="font-bold text-[#b88c8c]">Tech-Focused Collection:</span> Our library is entirely dedicated to PNGs of programming languages, frameworks, libraries, and other tools. Whether you're building websites, apps, or cloud-native solutions, we have the images to represent your stack.
+                <span className="font-bold text-[#b88c8c]">Tech-Focused Collection:</span> Our library is entirely dedicated to PNGs of programming languages, frameworks, libraries, and other tools. Whether you&apos;re building websites, apps, or cloud-native solutions, we have the images to represent your stack.
               </p>
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-400">
                 <span className="font-bold text-[#b88c8c]">High-Resolution Images:</span> All our PNGs come with transparent backgrounds, making them ideal for presentations, website designs, documentation, and more.

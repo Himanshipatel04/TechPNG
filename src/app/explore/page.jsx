@@ -17,7 +17,7 @@ const Page = () => {
     document.body.removeChild(link);
   };
 
-  // Filter data based on the search input
+  
   const filteredData = data.filter(item =>
     item.name.toLowerCase().includes(search.toLowerCase())
   );
