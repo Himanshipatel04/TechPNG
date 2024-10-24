@@ -16,7 +16,7 @@ const Header = () => {
             <Image src={logo} alt="logo" className="h-16 w-fit object-cover" />
           </Link>
           <Link href="/about" className="cursor-pointer relative group">
-            <FaPeopleGroup size={34} />
+            <FaPeopleGroup className="text-white" size={34} />
             <p className="hidden group-hover:flex bg-white absolute p-1 border border-gray-300 rounded-md -left-6 font-semibold text-black -bottom-8 w-20 items-center justify-center">
               About Us
             </p>

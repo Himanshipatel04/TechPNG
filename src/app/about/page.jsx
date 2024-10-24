@@ -6,7 +6,18 @@ import Image from "next/image";
 
 const Page = () => {
   // Check if dark mode is enabled
-  const isDarkMode = typeof window !== "undefined" && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [isDarkMode, setIsDarkMode] = useState(false); // State to track dark mode
+
+  useEffect(() => {
+    // Check for saved user preference in local storage
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setIsDarkMode(savedTheme === 'dark');
+    } else {
+      // Default to light mode if no preference is set
+      setIsDarkMode(false);
+    }
+  }, []);
 
   return (
     <div className="min-h-screen py-16 px-5 md:px-20 text-black">

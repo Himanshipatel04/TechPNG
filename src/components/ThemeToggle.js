@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 const ThemeToggle = ({ children }) => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
@@ -17,7 +17,7 @@ const ThemeToggle = ({ children }) => {
     if (savedTheme) {
       setTheme(savedTheme);
     }
-  }, []);
+  }, [theme]);
 
   return (
     <div
@@ -32,7 +32,7 @@ const ThemeToggle = ({ children }) => {
           <MdDarkMode size={40} />
         )}
       </button>
-      <>{children}</> {/* Render children */}
+      <>{children}</> 
     </div>
   );
 };

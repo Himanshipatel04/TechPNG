@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
           <body className={`antialiased`}>
           <ThemeToggle>
             <Header />
-            <main>{children}</main> {/* Ensure children are wrapped in a main or div */}
+            <main>{children}</main> 
             <Footer />
       </ThemeToggle>
           </body>
