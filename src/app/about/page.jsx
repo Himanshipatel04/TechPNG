@@ -9,7 +9,7 @@ const Page = () => {
   const isDarkMode = typeof window !== "undefined" && window.matchMedia("(prefers-color-scheme: dark)").matches;
 
   return (
-    <div className="min-h-screen py-16 px-5 md:px-20 text-black bg-gray-100 dark:bg-black">
+    <div className="min-h-screen py-16 px-5 md:px-20 text-black">
       <div className="flex flex-col md:flex-row items-center justify-between gap-7">
         {/* Left Section: Text Content */}
         <div className="w-full md:w-1/2 flex flex-col gap-8">

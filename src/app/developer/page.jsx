@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Import ico
 
 const page = () => {
   return (
-    <div className="h-fit py-10 px-5 md:px-20 w-full text-black bg-gray-100 dark:text-white dark:bg-black  min-h-[80vh] ">
+    <div className="h-fit py-10 px-5 md:px-20 w-full text-black  dark:text-white min-h-[80vh] ">
       <h1 className="text-6xl font-bold text-center text-[#121010] dark:text-gray-400">
         Meet the Developer
       </h1>
@@ -27,15 +27,15 @@ const page = () => {
               Himanshi Patel !
             </span>
           </p>
-          <p className="text-xl font-serif mb-5 ">
+          <p className="text-xl font-serif mb-5 text-[#121010] dark:text-gray-400 ">
             I am a student of 3rd year and a web developer with a focus on
             creating innovative and user-friendly applications. With expertise
             in technologies like React, Next.js, and Tailwind CSS, I strive to
             build seamless experiences for users.
           </p>
 
-          <h2 className="text-4xl font-bold">About TechPNG</h2>
-          <p className="text-xl font-serif mb-5">
+          <h2 className="text-4xl font-bold text-[#121010] dark:text-gray-400">About TechPNG</h2>
+          <p className="text-xl font-serif mb-5 text-[#121010] dark:text-gray-400">
             As the creator of TechPNG, I aim to provide developers, designers,
             and tech enthusiasts with high-quality PNG images of the most widely
             used technical stacks. My goal is to simplify the process of finding
@@ -43,8 +43,8 @@ const page = () => {
             create stunning applications.
           </p>
 
-          <h2 className="text-4xl font-bold ">Connect with Me</h2>
-          <p className="text-xl font-serif">
+          <h2 className="text-4xl font-bold  dark:text-gray-400 ">Connect with Me</h2>
+          <p className="text-xl font-serif dark:text-gray-400">
             I&apos;m always open to collaboration, feedback, and new ideas. Feel
             free to reach out via the links below:
           </p>

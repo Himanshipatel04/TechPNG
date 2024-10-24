@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="h-[90vh] flex items-center justify-center relative overflow-hidden">
       {/* Background Image with Reduced Opacity */}
       <div
-        className="absolute inset-0 bg-cover bg-center z-0 bg-white dark:bg-black"
+        className="absolute inset-0 bg-cover bg-center z-0 "
         // style={{ backgroundImage: `url(${bg2.src})`, opacity: 0.1 }}
       />
       {/* Spinning Background Image - Animate only on mount */}
@@ -15,7 +15,7 @@ const Hero = () => {
         style={{ backgroundImage: `url(${bg.src})` }}
       />
       {/* Text */}
-      <p className="md:text-7xl dark:text-white text-5xl text-center px-10 font-bold text-black relative z-20">
+      <p className="md:text-7xl  text-5xl text-center px-10 font-bold  relative z-20">
         Elevate Your Projects with Our{" "}
         <span className="md:bg-[#b88c8c] md:text-black">Tech PNG</span>{" "}
         Treasures!

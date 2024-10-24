@@ -23,7 +23,7 @@ const Page = () => {
   );
 
   return (
-    <div className="px-5 md:px-20 py-10 bg-white dark:bg-gray-800 min-h-screen transition-colors duration-300">
+    <div className="px-5 md:px-20 py-10 min-h-screen transition-colors duration-300">
       <div className="flex justify-center">
         <div className="relative w-full max-w-lg">
           <input
@@ -54,7 +54,7 @@ const Page = () => {
                   className="h-20 w-20 object-contain rounded-full"
                 />
                 <p className="text-xl font-semibold text-center">{item.name}</p>
-                <p className="text-sm text-center px-2 text-wrap">{item.description}</p>
+                <p className="text-md text-center px-2 text-wrap">{item.description}</p>
                 <button
                   onClick={() => handleDownload(png.src, item.name)} // Use the correct image source
                   className="bg-black absolute bottom-0 text-lg rounded-b-lg w-full text-white py-2 mt-2 hover:bg-gray-700"

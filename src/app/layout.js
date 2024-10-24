@@ -1,22 +1,27 @@
+// app/layout.js
 import "./globals.css";
- import Header from "@/components/Header.jsx"
- import Footer from "@/components/Footer.jsx"
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import ThemeToggle from "@/components/ThemeToggle";
+// import ErrorBoundary from "@/components/ErrorBoundary";
 
 export const metadata = {
   title: "TechPNGs",
   description: "App for all Tech PNGs!",
-}; 
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en"> 
-      <body
-        className={`antialiased bg-white`}
-      >
-        <Header/>
-        {children}
-        <Footer/>
-      </body>
-    </html>
+    // <ErrorBoundary>
+        <html lang="en">
+          <body className={`antialiased`}>
+          <ThemeToggle>
+            <Header />
+            <main>{children}</main> {/* Ensure children are wrapped in a main or div */}
+            <Footer />
+      </ThemeToggle>
+          </body>
+        </html>
+    // </ErrorBoundary>
   );
 }
